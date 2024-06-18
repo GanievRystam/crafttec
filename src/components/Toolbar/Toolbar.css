@@ -1,0 +1,37 @@
+
+#tools-panel {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+#tools-panel button {
+  margin-right: 10px;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: #1a1a1a;
+  top: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+#shape-dropdown-content button {
+  width: 100%;
+  text-align: left;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+#shape-dropdown-content button:hover {
+  background-color: #f1f1f1;
+  color:#1a1a1a;
+}
